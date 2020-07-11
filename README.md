@@ -22,7 +22,7 @@ En la carpeta **configuration** se tiene el fichero prometheus.yml necesario par
 ## Cómo arrancar la aplicación
 
 
-git clone https://github.com/
+git clone https://github.com/refactorizando-web/metrics-prometheus.git
 
 `
 mvn spring-boot:run
