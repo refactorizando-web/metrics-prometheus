@@ -1,29 +1,30 @@
-# Spring Boot Actuator con Grafana y Prometheus
+# Spring Boot Actuator with Grafana and Prometheus
 
-## Introducción
-El objetivo de este ejemplo es poder visualizar en Grafana las métricas de Spring Boot Actuator Prometheus que previamente se vuelcan en Prometheus.
+## Introduction
+The objective of this example is to visualize Spring Boot Actuator Prometheus metrics in Grafana, which are previously dumped into Prometheus.
 
-La aplicación Spring Boot es un ejemplo sencillo de Spring Boot Actuator con todos los endpoints activados dentro 
-del application.properties.
+The Spring Boot application is a simple example of Spring Boot Actuator with all the endpoints enabled within the application.properties file.
 
-## Artículos
+## Post
 
- * [Spring Boot Actuator con Grafana y Prometheus](https://refactorizando.com/spring-boot-actuator-prometheus-grafana/)
+ * SPANISH [Spring Boot Actuator con Grafana y Prometheus](https://refactorizando.com/spring-boot-actuator-prometheus-grafana/)
 
  * ENGLISH [Spring Boot Actuator with Grafana and Prometheus](https://refactorizando.com/en/spring-boot-actuator-with-prometheus-and-grafana/)
 
- * [Spring Boot Actuator configuración y uso](https://refactorizando.com/spring-boot-actuator-uso-configuracion/)
+ * SPANISH [Spring Boot Actuator configuración y uso](https://refactorizando.com/spring-boot-actuator-uso-configuracion/)
 
    
-## Configuración
+## Configuration
 
-En la carpeta **configuration** se tienen los comandos docker para descargar prometheus y grafana.
-En la carpeta **configuration** se tiene el fichero prometheus.yml necesario para arrancar prometheus.
+In the **configuration** folder, you have the Docker commands to download Prometheus and Grafana.
+In the **configuration** folder, you have the prometheus.yml file required to start Prometheus.
 
-**Prometheus** se arranca en `localhost:9090`
-**Grafana** se arrancará en `localhost:3000`
+**Prometheus** start at `localhost:9090`
+**Grafana** start at localhost:3000.
 
-## Cómo arrancar la aplicación
+
+
+## How does it run?
 
 
 git clone https://github.com/refactorizando-web/metrics-prometheus.git
@@ -32,7 +33,7 @@ git clone https://github.com/refactorizando-web/metrics-prometheus.git
 mvn spring-boot:run
 `
 
-La aplicación se arráncara en localhost:8080
+The application start at localhost:8080
 
 
 
