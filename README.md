@@ -10,7 +10,7 @@ del application.properties.
 
  * [Spring Boot Actuator con Grafana y Prometheus](https://refactorizando.com/spring-boot-actuator-prometheus-grafana/)
 
- * ENGLISH [Spring Boot Actuator con Grafana y Prometheus](https://refactorizando.com/en/spring-boot-actuator-with-prometheus-and-grafana/)
+ * ENGLISH [Spring Boot Actuator with Grafana and Prometheus](https://refactorizando.com/en/spring-boot-actuator-with-prometheus-and-grafana/)
 
  * [Spring Boot Actuator configuración y uso](https://refactorizando.com/spring-boot-actuator-uso-configuracion/)
 
